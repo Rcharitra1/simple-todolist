@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="@string/preference_username"
+        android:title="@string/preference_username_title"
+        android:summary="@string/preference_username_summary"
+        />
+    <EditTextPreference
+        android:key="@string/preference_password"
+        android:title="@string/preference_password_title"
+        android:summary="@string/preference_password_summary"/>
+    <ListPreference
+        android:key="@string/preference_main_bg"
+        android:title="@string/preference_main_bg_title"
+        android:summary="@string/preference_main_bg_title_summary"
+        android:entries="@array/color_names"
+        android:entryValues="@array/color_values"
+        />
+    <ListPreference
+        android:key="@string/preference_font_size"
+        android:title="@string/preference_font_size_title"
+        android:summary="@string/preferecnce_font_size_summary"
+        android:entries="@array/font_size_name"
+        android:entryValues="@array/font_size_size"
+        />
+
+
+
+</PreferenceScreen>

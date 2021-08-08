@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TodoOrNot</string>
+    <string name="create_todo_list">Create Todo List</string>
+    <string name="view_lists">View Lists</string>
+    <string name="preference_username">username</string>
+    <string name="preference_username_title">User Name</string>
+    <string name="preference_username_summary">Use this is edit user name</string>
+    <string name="preference_password">password</string>
+    <string name="preference_password_title">Password</string>
+    <string name="preference_password_summary">Use this edit password</string>
+    <string name="preference_main_bg">main bg</string>
+    <string name="preference_main_bg_title">"Background "</string>
+    <string name="preference_main_bg_title_summary">Use this to change background color</string>
+    <string name="create_todo">"Create "</string>
+    <string name="create_todo_list_title">Create a To Do List</string>
+    <string name="new_todolist_name">Add a name to the list to begin</string>
+    <string name="create_todolist_button">Create</string>
+    <string name="create_todo_list_item_title">Todo List Item</string>
+    <string name="new_todolist_item_description">Add a description</string>
+    <string name="new_todolist_item_name">Title of the activity</string>
+    <string name="edit_todo_list_item_title">Edit To Do List Item</string>
+    <string name="edit_todolist_button">Edit</string>
+    <string name="delete_todolist_button">Delete</string>
+    <string name="button_view_lists">View Todos</string>
+    <string name="create_todo_items">Create Todo</string>
+    <string name="app_title">To Do Or Not</string>
+    <string name="edit_preferences">Edit Preferences</string>
+    <string name="archive_todolist_item">Archive</string>
+    <string name="view_archived_items">View Archived</string>
+    <string name="button_view_archived">View Archived</string>
+    <string name="preference_font_size">font-size</string>
+    <string name="preference_font_size_title">Font Size</string>
+    <string name="preferecnce_font_size_summary">Use this to change font</string>
+    <string name="home">Home</string>
+    <string name="view_list_title">View List</string>
+</resources>

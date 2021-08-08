@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/main_activity_linear_layout"
+    android:background="@color/background_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="@string/app_title"
+        android:id="@+id/main_title"
+        android:textColor="@color/list_view_color"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/create_button"
+        android:text="@string/create_todo_items"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:id="@+id/button_view_lists"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:text="@string/button_view_lists"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        app:backgroundTint="#8BC34A" />
+
+    <Button
+        android:id="@+id/button_view_archived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="6dp"
+        android:text="@string/button_view_archived"
+        android:textAllCaps="false"
+        app:backgroundTint="#03A9F4" />
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_names">
+        <item name="red">Red</item>
+        <item name="green">Green</item>
+        <item name="blue">Blue</item>
+        <item name="grey">Grey</item>
+        <item name="white">White</item>
+        <item name="black">Black</item>
+    </string-array>
+    <string-array name="color_values">
+        <item name="red">#F44336</item>
+        <item name="green">#73A673</item>
+        <item name="blue">#9999CA</item>
+        <item name="grey">#cecece</item>
+        <item name="white">#fefefe</item>
+        <item name="black">#010101</item>
+    </string-array>
+
+    <string-array name="font_size_name">
+        <item name="small">Small</item>
+        <item name="medium">Medium</item>
+        <item name="large">Large</item>
+    </string-array>
+    <string-array name="font_size_size">
+        <item name="small">20</item>
+        <item name="medium">24</item>
+        <item name="large">32</item>
+    </string-array>
+</resources>

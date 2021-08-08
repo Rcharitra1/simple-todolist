@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_home"
+        android:title="@string/home"/>
+   <item android:id="@+id/menu_create_todo_list"
+       android:title="@string/create_todo_list"/>
+    <item android:id="@+id/menu_view_lists"
+        android:title="@string/view_lists"/>
+    <item android:id="@+id/menu_view_archived_items"
+        android:title="@string/view_archived_items"/>
+    <item android:id="@+id/shared_preferences"
+        android:title="@string/edit_preferences"/>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    android:id="@+id/create_activity_linear_layout">
+
+    <TextView
+        android:id="@+id/create_todo_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center_horizontal"
+        android:padding="6sp"
+        android:text="@string/create_todo_list_title"
+        android:textColor="@color/create_todo_list_title_color"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_marginTop="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:gravity="top"
+        android:hint="@string/new_todolist_name"
+        android:id="@+id/edit_view_todo_list_name"
+        android:background="@color/edit_view_color_bgr"
+        android:layout_margin="6sp"
+        android:padding="5dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/create_todolist_button"
+        android:textAllCaps="false"
+        android:id="@+id/create_button_todolist"
+        />
+
+</LinearLayout>
